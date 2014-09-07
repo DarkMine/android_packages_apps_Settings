@@ -2,9 +2,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About phone screen, cm+ version -->
+    <!-- About phone screen, DarkCM version -->
     <string name="cp_version_title">DarkCM</string>
-    <string name="cp_version_default">1.00</string>
+    <string name="cp_version_default">3.00</string>
 
     <!-- General strings -->
     <string name="attention">Dikkat</string>
@@ -1016,5 +1016,17 @@
     <string name="overscroll_summary">Kaydırılabilir objelerin hedefi aştığında nasıl göründüğünü seçin</string>
     <string name="overscroll_weight_title">Aşırı kaydırma ağırlığı</string>
     <string name="overscroll_weight_summary">Kaydırılabilir objelerin ağırlığını seçin</string>
+
+    <!-- Lockscreen battery ring -->
+    <string name="battery_around_lockscreen_ring">Açma halkasında pil</string>
+
+    <!-- Sound themes -->
+    <string name="sound_packages_title">Ses paketleri</string>
+    <string name="install_sound_pack_title">Ses paketi yükle</string>
+    <string name="install_sound_pack_summary">Dahili hafızada SoundPacks klasörüne eklenen yeni ses paketlerini yükle</string>
+    <string name="select_sound_pack_title">Ses paketi seç</string>
+    <string name="select_sound_pack_summary">Aktif ses paketi seç</string>
+    <string name="default_sound_pack">Varsayılan (Sistem)</string>
+    <string name="error_pack_install">Ses paketi yüklenirken hata oluştu</string>
 
 </resources>
