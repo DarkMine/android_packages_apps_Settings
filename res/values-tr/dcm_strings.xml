@@ -383,11 +383,6 @@
     <string name="screen_recorder_bitrate_50000000">50000000</string>
     <string name="screen_recorder_bitrate_100000000">100000000</string>
 
-    <!-- Lockscreen Lid Settings -->
-    <string name="smart_cover_category_title">Akıllı kaplama</string>
-    <string name="smart_cover_wake_title">Akıllı kaplama uyan</string>
-    <string name="smart_cover_wake_summary">Akıllı kaplama açılınca cihazı uyandır</string>
-
     <!-- Power menu screen recorder -->
     <string name="power_menu_screenrecord_title">Ekran kayıt</string>
 
@@ -476,7 +471,9 @@
     <string name="recent_panel_expanded_mode_never">Asla</string>
     <string name="recent_panel_show_topmost_title">En üstteki görevi göster</string>
     <string name="recent_panel_show_topmost_summary">En üstteki görevi son uygulamalar görünümünde hariç tutma</string>
-    <string name="recent_panel_bg_color_title">Arkaplan rengi</string>
+    <string name="recent_panel_bg_color_title">Panel arkaplan rengi</string>
+    <string name="recent_card_bg_color_title">Kart arkaplan rengi</string>
+    <string name="recent_card_text_color_title">Kart yazı rengi</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Sol kenarda göster</string>
@@ -948,14 +945,6 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
-
-    <!-- App Circle Sidebar -->
-    <string name="app_circle_bar_title">Daire kenar çubuğu</string>
-    <string name="app_circle_sidebar_summary_real">Uygulamaları kenar çubuğu ile daha hızlı açın ve tek bir ekranda birden çok uygulama açın.</string>
-    <string name="app_circle_bar_summary">Ekranın sağ tarafına dokununca uygulama başlatıcıyı göster</string>
-    <string name="app_circle_bar_included_apps_title">Dahil uygulamalar</string>
-    <string name="app_circle_bar_included_apps_summary">Kenar çubuğunda gösterilecek uygulamalar</string>
-    <string name="category_app_circle_bar_title">Uygulama başlatıcı</string>
 
     <!-- ListView animation -->
     <string name="listview_category">Liste animasyonları</string>
