@@ -4,7 +4,7 @@
 
     <!-- About phone screen, DarkCM version -->
     <string name="cp_version_title">DarkCM</string>
-    <string name="cp_version_default">3.00</string>
+    <string name="cp_version_default">4.00</string>
 
     <!-- General strings -->
     <string name="attention">Dikkat</string>
@@ -100,14 +100,11 @@
 
     <!-- Low battery warning policy -->
     <string name="pref_low_battery_warning_policy_title">Düşük pil uyarısı</string>
-    <string name="pref_low_battery_warning_policy_dialog_title">Düşük pil uyarısı</string>
     <string name="low_battery_warning_policy_popup_sound">Açılır pencere ve ses</string>
     <string name="low_battery_warning_policy_notif_sound">Bildirim ve ses</string>
     <string name="low_battery_warning_policy_popup">Sadece açılır pencere</string>
     <string name="low_battery_warning_policy_notif">Sadece bildirim</string>
     <string name="low_battery_warning_policy_sound">Sadece ses</string>
-    <string name="battery_prefs_title">Seçenekler</string>
-    <string name="battery_stats_title">İstatistikler</string>
 
     <!-- Lockscreen pin shuffle -->
     <string name="lock_numpad_random_title">Numaraların yerlerini değiştir</string>
@@ -174,38 +171,6 @@
     <string name="notif_wallpaper_alpha_title">Arkaplan saydamlığı</string>
     <string name="notif_alpha_title">Bildirim saydamlığı</string>
     <string name="shortcut_image_not_valid">Seçilen uygulama geçerli bir simge ile geri dönmedi veya resim kırpmayı desteklemiyor. Farklı uygulama kullanın.</string>
-   
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock">Saat ve tarih</string>
-    <string name="status_bar_clock_title">Saat ve tarih biçimi</string>
-    <string name="clock_title_enable">Hizalama</string>
-    <string name="clock_enabled">Etkin</string>
-    <string name="clock_disabled">Devredışı</string>
-    <string name="status_bar_show_clock_title">Saat ve tarihi göster</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-saat biçimi etkin</string>
-    <string name="enable_clock_weekday">Haftanın günü</string>
-    <string name="enable_clock_weekday_summary">Saatten önce günün kısaltması</string>
-    <string name="right_clock">Saat sağda</string>
-    <string name="center_clock">Saat ortada</string>
-    <string name="dont_show">Gösterme</string>
-    <string name="clock_date_display">Tarih</string>
-    <string name="clock_date_display_summary">Saatten önce tarihi göster</string>
-    <string name="clock_date_style">Tarih biçimi</string>
-    <string name="clock_date_format">Tarih formatı</string>
-    <string name="clock_date_string_edittext_title">Tarih formatında olmalı örn. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Karakter gir</string>
-   <string name="am_pm_clock_normal">Normal yazı tipi</string>
-    <string name="am_pm_clock_small">Küçük yazı tipi</string>
-    <string name="am_pm_clock_none">Gösterme</string>
-    <string name="clock_date_display_none">Gösterme</string>
-    <string name="clock_date_display_small">Küçük yazı tipi</string>
-    <string name="clock_date_display_normal">Normal yazı tipi</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Küçük harf</string>
-    <string name="clock_date_style_uppercase">Büyük harf</string>
-    <string name="clock_date_format_custom">Özel java format</string>
-    <string name="status_bar_clock_style_reset_message">Saat rengini sıfırla?</string>
 
     <!-- Volume pane timeout -->
     <string name="volume_panel_timeout_title">Ses paneli zamanaşımı</string>
@@ -789,7 +754,6 @@
     <string name="pie_warning_no_navigation_present">Şu anda başka bir dolaşım etkin değil. Pie kontrollerini kapatmak kullanılamaz bir cihazla sonuçlanabilir. Bunun yerine dolaşım çubuğunu etkinleştirmek istermisiniz?</string>
     <string name="pie_trigger_warning">Ana tetikleyicilerden en az birinin (alt, sol or sağ) etkinleştirimesi gerekli.</string>
 
-
     <!-- Lockscreen all widgets -->
     <string name="lockscreen_allow_all_title">Tüm widgetlara izin ver</string>
     <string name="lockscreen_allow_all_summary">Normal olarak kilit ekranında desteklenmeyen widgetlara izin ver</string>
@@ -1006,6 +970,15 @@
     <string name="overscroll_weight_title">Aşırı kaydırma ağırlığı</string>
     <string name="overscroll_weight_summary">Kaydırılabilir objelerin ağırlığını seçin</string>
 
+    <!-- App moving -->
+    <string name="app_moving_enable">Uygulama taşıma etkin</string>
+    <string name="app_moving_disable">Uygulama taşıma devredışı</string>
+    <string name="app_moving_reboot_title">Şimdi yeniden başlat?</string>
+    <string name="app_moving_reboot_enabled_desc">Uygulama taşıma başarılı bir şekilde etkinleştirildi.\n\nDeğişikliklerin uygulanması için cihaz yeniden başlatılmalı.</string>
+    <string name="app_moving_reboot_disabled_desc">uygulama taşıma başarılı bir şekilde devredışı bırakıldı.\n\nDeğişikliklerin uygulanması için cihaz yeniden başlatılmalı.</string>
+    <string name="app_moving_reboot_now_button">Şimdi yeniden başlat</string>
+    <string name="app_moving_reboot_later_button">Daha sonra yeniden başlat</string>	
+	
     <!-- Lockscreen battery ring -->
     <string name="battery_around_lockscreen_ring">Açma halkasında pil</string>
 
@@ -1018,4 +991,104 @@
     <string name="default_sound_pack">Varsayılan (Sistem)</string>
     <string name="error_pack_install">Ses paketi yüklenirken hata oluştu</string>
 
+    <!-- Volume panel background color && transparency -->
+    <string name="volume_panel_bg_color_title">Ses paneli rengi</string>
+    <string name="trds_default_color">Varsayılan</string>
+    <string name="reset_default_message">Sıfırla</string>
+    <string name="qs_style_reset_message">Tüm renkleri sıfırla?</string>	
+	
+    <!-- Quicksettings panel floating window -->
+    <string name="title_floating_window">Açılan pencere</string>
+    <string name="summary_floating_window">Hızlı ayar karelerini açılan pencerede göster</string>
+
+    <!-- Driving mode -->
+    <string name="voice_tts_title">Sürüş modu</string>
+    <string name="tts_settings_reset_message">Reset all settings to default?</string>
+    <string name="voice_tts_notification_title">Drive mode</string>
+    <string name="voice_tts_notification_summary_on">Enable driving mode</string>
+    <string name="voice_tts_notification_summary_off">Disable driving mode</string>
+    <string name="voice_tts_volume_title">Volume</string>
+    <string name="voice_tts_volume_summary">Set volume for speak</string>
+    <string name="voice_tts_call_title">Incoming call</string>
+    <string name="voice_tts_call_summary">Enable/disable speak for Incoming calls</string>
+    <string name="voice_tts_sms_title">New message</string>
+    <string name="voice_tts_sms_summary">Enable/disable speak for New messages</string>
+    <string name="voice_tts_sms_read_title">Read new message</string>
+    <string name="voice_tts_sms_read_summary">Enable/disable speak for Read New messages</string>
+    <string name="voice_tts_charge_full_title">Battery full indicator</string>
+    <string name="voice_tts_charge_full_summary">Enable/disable speak for battery fully charged</string>
+    <string name="voice_tts_charge_on_title">Connect charger</string>
+    <string name="voice_tts_charge_on_summary">Enable/disable speak for charging connected</string>
+    <string name="voice_tts_charge_off_title">Disconnect charger</string>
+    <string name="voice_tts_charge_off_summary">Enable/disable speak for charging disconnected</string>
+    <string name="voice_tts_clock_title">Clock</string>
+    <string name="voice_tts_clock_summary">Enable/disable speak for clock after screen turn on</string>
+    <string name="voice_tts_date_title">Date</string>
+    <string name="voice_tts_date_summary">Enable/disable speak for date after screen turn on</string>
+    <string name="voice_tts_notif_title">Notification</string>
+    <string name="voice_tts_notif_summary">Enable/disable speak for new notification</string>
+    <string name="voice_tts_notif_read_title">Read new notifications</string>
+    <string name="voice_tts_notif_read_summary">Enable/disable speak for Read New messages from notifications</string>
+    <string name="voice_tts_whitelist_title">Included applications</string>
+    <string name="voice_tts_whitelist_summary">Which apps allowed to speak for new notifications</string>
+    <string name="voice_tts_music_title">Music track</string>
+    <string name="voice_tts_music_summary">Enable/disable speak for song name</string>
+    <string name="voice_tts_annoy_notif_title">Less frequent speak notification</string>
+    <string name="voice_tts_annoy_notif_summary">Limit the speak notification of each app to only play once per set time period</string>
+    <string name="voice_tts_annoy_notif_default">Default Behaviour</string>
+    <string name="voice_tts_annoy_notif_3s">3 seconds</string>
+    <string name="voice_tts_annoy_notif_5s">5 seconds</string>
+    <string name="voice_tts_annoy_notif_10s">10 seconds</string>
+    <string name="voice_tts_annoy_notif_15s">15 seconds</string>
+    <string name="voice_tts_annoy_notif_30s">30 seconds</string>
+    <string name="voice_tts_annoy_notif_45s">45 seconds</string>
+    <string name="voice_tts_annoy_notif_1m">1 minute</string>
+    <string name="voice_tts_annoy_notif_2m">2 minutes</string>
+    <string name="voice_tts_annoy_notif_5m">5 minutes</string>
+
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_call">Incoming call from </string>
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_sms">New text message from </string>
+    <!-- require add space in the end of string -->
+    <string name="voice_tts_new_notif">New notification from </string>
+
+    <string name="voice_tts_charge_full">Battery fully charged</string>
+    <string name="voice_tts_charge_on">Charging Start</string>
+    <string name="voice_tts_charge_off">Charging Stop</string>
+    <string name="voice_tts_time">Time is</string>
+    <string name="voice_tts_date">Date is</string>
+    <string name="voice_tts_music">Now playing</string>
+    <string name="voice_tts_engine_started">Drive Mode Ready</string>
+    <string name="unknown_tts">Unknown</string>
+    <string name="unknown_number_tts">Unknown number</string>
+    <string name="time_one">One</string>
+    <string name="time_two">Two</string>
+    <string name="time_three">Three</string>
+    <string name="time_four">Four</string>
+    <string name="time_five">Five</string>
+    <string name="time_six">Six</string>
+    <string name="time_seven">Seven</string>
+    <string name="time_eight">Eight</string>
+    <string name="time_nine">Nine</string>
+    <string name="time_ten">Ten</string>
+    <string name="time_eleven">Eleven</string>
+    <string name="time_twelve">Twelve</string>
+    <string name="time_oclock">o Clock</string>
+    <string name="time_five_past">Five after</string>
+    <string name="time_ten_past">Ten after</string>
+    <string name="time_quarter_past">Quarter after</string>
+    <string name="time_twenty_past">Twenty</string>
+    <string name="time_twenty_five_past">TwentyFive after</string>
+    <string name="time_half_past">Half past</string>
+    <string name="time_twenty_five_to">TwentyFive till</string>
+    <string name="time_twenty_to">Twenty till</string>
+    <string name="time_quarter_to">Quarter till</string>
+    <string name="time_ten_to">Ten till</string>
+    <string name="time_five_to">Five till</string>
+
+    <!-- Enable power menu -->
+    <string name="lockscreen_enable_power_menu_title">Güç menüsü etkin</string>
+    <string name="lockscreen_enable_power_menu_summary">Ekran kilitlenince güç menüsünü göster</string>	
+	
 </resources>
